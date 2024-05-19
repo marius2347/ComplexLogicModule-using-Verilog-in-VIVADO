@@ -19,8 +19,10 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
+// Sum module for 2 values of 3 bites each => 4 bites
 module sum(
-
+        input [2:0] in1, in2,
+        output [3:0] out
     );
+assign out = in1 + in2;
 endmodule
