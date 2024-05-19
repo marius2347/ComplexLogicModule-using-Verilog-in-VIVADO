@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 05/19/2024 12:03:17 PM
+// Create Date: 05/19/2024 12:17:25 PM
 // Design Name: 
-// Module Name: DMUX
+// Module Name: counter
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -19,20 +19,16 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-// DMUX having one entry and 4 exits
-module DMUX(
-        input [1:0] sel,
-        input en,
-        output reg [3:0] out        
+// Count the time of clock if it is enabled and not reset
+module counter(
+        input CK, reset, en, 
+        output reg [2:0] out
     );
-always@(*)
-if (en == 1)
-   case (sel)
-       0 : out = 4'b0001;
-       1 : out = 4'b0010;
-       2 : out = 4'b0100;
-       3 : out = 4'b1000;
-   endcase
-else
-    out = 4'b0000;
+always@(posedge CK)
+if (reset)
+    out <= 0;
+else if (en == 1)
+    out <= out + 1;
+else 
+    out <= out;
 endmodule
