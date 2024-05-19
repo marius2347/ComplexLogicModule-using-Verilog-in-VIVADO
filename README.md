@@ -4,7 +4,7 @@
 <ul>
     <li>DMUX module with one entry and 4 exits</li>
     <li>MUX module with 4 entries and one output</li>
-    <li>Sum 2 entries</li>
+    <li>Sum 2 entries with 3 bits, outputs 4 bits</li>
     <li>Counter the time of the Clock</li>
     <li>TOP for combing all the above modules</li>
     <li>Test for simulating the resulted scheme</li>
