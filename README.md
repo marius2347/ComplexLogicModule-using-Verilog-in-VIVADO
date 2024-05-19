@@ -14,6 +14,8 @@
 <h2>Photo</h2>
 <img src="image.png">
 <br>
+<img src="scheme.png">
+<br>
 
 <h2>Contact</h2>
 
