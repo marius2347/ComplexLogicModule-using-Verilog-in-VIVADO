@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ComplexLogicModule.srcs/sources_1/new/DMUX.v" \
+"../../../../ComplexLogicModule.srcs/sources_1/new/MUX.v" \
+"../../../../ComplexLogicModule.srcs/sources_1/new/counter.v" \
+"../../../../ComplexLogicModule.srcs/sources_1/new/sum.v" \
+"../../../../ComplexLogicModule.srcs/sources_1/new/TOP.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

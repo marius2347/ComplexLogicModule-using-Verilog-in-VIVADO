@@ -19,7 +19,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
+// TOP - Combine all modules created
 module TOP(
         input [2:0] A, B,
         input ck, reset,
