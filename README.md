@@ -2,12 +2,12 @@
 <br>
 <h3>Features</h3>
 <ul>
-    <li>DMUX</li>
-    <li>MUX</li>
-    <li>Sum</li>
-    <li>Counter</li>
-    <li>TOP</li>
-    <li>Test</li>
+    <li>DMUX module with one entry and 4 exits</li>
+    <li>MUX module with 4 entries and one output</li>
+    <li>Sum 2 entries</li>
+    <li>Counter the time of the Clock</li>
+    <li>TOP for combing all the above modules</li>
+    <li>Test for simulating the resulted scheme</li>
 </ul>
 
 
