@@ -19,7 +19,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-# Simulating the modules
+// Simulating the modules
 module test();
 
 // declaring the signals
@@ -50,8 +50,8 @@ end
 
 initial begin
     reset = 1;
-    A = 7;
-    B = 4;
+    A = 3'b111; // 7
+    B = 3'b100; // 4
     #20 reset = 0;
  end
 endmodule

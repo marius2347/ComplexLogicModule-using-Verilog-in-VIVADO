@@ -2,9 +2,10 @@
 verilog xil_defaultlib  \
 "../../../../ComplexLogicModule.srcs/sources_1/new/DMUX.v" \
 "../../../../ComplexLogicModule.srcs/sources_1/new/MUX.v" \
+"../../../../ComplexLogicModule.srcs/sources_1/new/TOP.v" \
 "../../../../ComplexLogicModule.srcs/sources_1/new/counter.v" \
 "../../../../ComplexLogicModule.srcs/sources_1/new/sum.v" \
-"../../../../ComplexLogicModule.srcs/sources_1/new/TOP.v" \
+"../../../../ComplexLogicModule.srcs/sources_1/new/test.v" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"
