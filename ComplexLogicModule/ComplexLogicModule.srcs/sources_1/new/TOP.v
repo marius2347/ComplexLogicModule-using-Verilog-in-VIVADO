@@ -38,14 +38,14 @@ sum SUM (
 );
 
 // from DMUX.v module
-dmux DMUX (
+DMUX dmux (
     .en (1),
     .sel (A[1:0]),
     .out (wdmux)
 );
 
 // from MUX.v module
-mux MUX (
+MUX mux (
     .in0 (wdmux[3]),
     .in1 (wdmux[2]),
     .in2 (wdmux[0]),
@@ -57,8 +57,9 @@ mux MUX (
 counter COUNTER(
     .CK (ck),
     .reset (reset),
-    .en (wmuxnum),
+    .en (wmux_num),
     .out (out_num)
 
 );
+assign outp = A[2] ^ B[2];
 endmodule 
