@@ -11,7 +11,7 @@
 </ul>
 
 
-<h2>Photo</h2>
+<h2>Photos</h2>
 <img src="image.png">
 <br>
 <img src="scheme.png">
