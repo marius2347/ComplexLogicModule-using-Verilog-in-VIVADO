@@ -1,4 +1,4 @@
-<h1>ComplexLogicModule - Verilog Project</h1>
+<h1>ComplexLogicModule using Verilog in VIVADO</h1>
 <br>
 <h3>Features</h3>
 <ul>
